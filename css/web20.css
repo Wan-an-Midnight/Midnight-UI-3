@@ -439,6 +439,8 @@ list-style: none;
 	    margin: 0;
 	    padding: 0 17px;
 		width: auto;
+		text-align: left!important;
+		margin-left: 10px;
 }
 .section-1-country{
 	display: none;

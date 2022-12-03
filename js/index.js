@@ -445,3 +445,8 @@ function close_text(){
 	document.getElementById("open_text").style.display = "none";
 	document.getElementById("please_open").style.display = "block";
 }
+// function boxadd(){
+// 	document.getElementById("more-hidden").style.overflowY = "auto";
+// 	setTimeout(function(){document.getElementById("box-123").classList.add("show")
+// 	},300);
+// }

@@ -1,0 +1,245 @@
+
+body{
+	overflow:auto;
+	overflow-x: hidden;
+	}
+sup{
+	position: relative;
+	    vertical-align: initial;
+	    font-feature-settings: "numr";
+	    font-size: 1em;
+}
+p{
+	font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	
+}
+.im-info{
+	padding-top: 60px;
+/* 	background-color: #FFFFFF;
+ */	text-align: center;
+	display: flex;
+	flex-direction: column;
+	    justify-content: center;
+	    align-content: center;
+	    flex-wrap: nowrap;
+	    align-items: center;
+}
+.num-v{
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.info-big{
+	margin-top: 30px;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+.info-info{
+	font-size: 18px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+.top-text{
+	font-size: 32px;
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+
+.can{
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	    background-image: url(../img/background-none.png);
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: space-evenly;
+	    align-content: center;
+	    align-items: center;
+}
+@media only screen and (max-width:768px) {
+	.can{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		    background-image: url(../img/background-none.png);
+		    display: block;
+	}
+}
+.can-top{
+	color: #ffffff;
+	font-size: 29px;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+.can-list{
+	margin-left: 30px;
+	padding-bottom: 30px;
+	color: #FFFFFF;
+	margin-top: 60px;
+}
+.can-list-ul{
+	
+}
+.can-list-li{
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.can-list-li-p{
+	font-size: 17px;
+}
+.info-text-page{
+	width: 1000px;
+	    margin-top: 30px;
+	    margin-left: 300px;
+	    margin-right: 200px;
+	    border: 0px;
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: flex-start;
+	    
+}
+@media only screen and (max-width:1068px) {
+.info-text-page{
+	margin-top: 30px;
+	    border: 0px;
+		margin-left: 150px;
+		margin-right: 100px;
+		width: auto;
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: flex-start;
+	    
+}
+}
+@media only screen and (max-width:768px) {
+.info-text-page{
+	margin-top: 30px;
+	    border: 0px;
+		margin-left: 50px;
+		margin-right: 50px;
+		width: auto;
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: flex-start;
+	    
+}
+}
+.info-text-page-p{
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.info-text-page-p2{
+	font-size: 17px;
+	font-weight: 400;
+}
+
+
+.ui-logo{
+	
+}
+.ui-logo-img{
+	width: 150px;
+	height: 150px;
+}
+.data-up{
+	margin-top: 20px;
+}
+.data-up-p{
+	color: #999999;
+	font-size: 17px;
+}
+.more-item{
+	padding-top: 50px;
+	width: 87.5%;
+	margin:  0 auto;
+}
+.more-text{
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+.more-text-p{
+	font-size: 32px;
+	font-weight: 600;
+	color: #000000;
+	font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	
+}
+.more-card{
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    align-items: center;
+}
+.more-card-text{
+	padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+}
+.more-card-text-head{
+	margin-bottom: 10px;
+}
+.more-card-text-head-p{
+	color: #000000;
+	font-size: 19px;
+	font-weight: 600;
+	font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.more-card-text-body{
+	margin-top: 10px;
+}
+.more-card-text-body-p{
+	color: #000000;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.4705882353;
+	font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	
+}
+.more-card-photo{
+	
+}
+.more-card-photo-img{
+}
+.more-card-photo-img-img{
+	width: 240px;
+	height: 484px;
+	border-radius: 46px;
+}
+.more-later{
+	margin-top: 20px;
+	font-size: 12px;
+	    line-height: 1.3333733333;
+	    font-weight: 400;
+	    letter-spacing: -0.01em;
+	    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	    border-radius: 12px;
+	    padding: 3px 11px;
+		box-sizing: border-box;
+		    white-space: nowrap;
+			background: transparent;
+			border: 1px solid #933493;
+			width: fit-content;
+			color: #933493;
+}
