@@ -42,14 +42,13 @@ function cn_index() {
 	document.getElementById("cn-index-li10").style.display = "none";
 	
 	w = screen.availWidth;
-	if(w < 835 && w > 768){
-		document.getElementById("w768").style.display = "block"
-		document.getElementById("main-body").style.overflow = "hidden"
-		document.getElementById("nav").style.display = "none";
-		document.getElementById("main-body").style.display = "inline-grid";
+	if(w < 768){
+		alert("此版本已不支持移动端访问，点按确定后将跳转至最新版");
+		location.href = "https://www.midnightnth.club";
+		
 		}
 	else{
-		document.getElementById("w768").style.display = "none"
+		
 		}
 
 }
